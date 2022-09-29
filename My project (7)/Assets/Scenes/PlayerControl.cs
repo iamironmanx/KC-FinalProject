@@ -58,7 +58,7 @@ public class PlayerControl : MonoBehaviour
     void PlayerJump()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, rad, ground);
-        if (Input.GetKey(KeyCode.W) && grounded)
+        if (Input.GetKey(KeyCode.Space) && grounded)
         {
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             PlayAnim(JUMP_ANIM);
