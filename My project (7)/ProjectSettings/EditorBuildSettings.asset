@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 3ee47580ce0273b40975d6a0876d28c8
+  - enabled: 1
+    path: Assets/Scenes/Repeat.unity
+    guid: ae8331921844aa9488e337f9435da23a
   m_configObjects: {}
